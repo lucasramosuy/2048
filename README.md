@@ -12,4 +12,4 @@ Abrí `http://localhost:8080/`. También funciona abriendo `index.html` directam
 
 ## Publicación
 
-Este PR entrega el juego, pero no cambia producción. Para publicarlo bajo una ruta del dominio, conectá la rama principal a un origen estático y agregá una ruta específica en el Worker **antes** de la ruta más amplia que pudiera interceptarla. Los archivos usan rutas relativas. Verificá juego, teclado, gestos y diseño móvil en la URL final.
+Está en vivo en https://lucasramos.uy/2048/: el Worker del dominio enruta el prefijo `/2048` a un origen estático con el contenido de la rama principal. Los archivos usan rutas relativas, así que la misma carpeta sirve tanto local como detrás del Worker.
