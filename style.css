@@ -2,3 +2,6 @@
 
 .eyebrow,.panel-kicker,.board-foot,.machine-sub,.scoreboard,.scorecards small{font-family:"DM Mono",monospace}
 @media (pointer:coarse){.back,.toolbar button{display:inline-flex;align-items:center;justify-content:center;min-height:44px}.controls button{height:44px}}
+footer a{color:inherit;text-decoration:none}footer a:focus-visible{outline:2px solid currentColor;outline-offset:2px;border-radius:4px}@media (hover:hover){footer a:hover{color:#25322f}}
+footer span,footer a{display:block}footer a{margin-top:6px}
+@media (pointer:coarse){footer a{display:inline-flex;align-items:center;min-height:44px;padding:0 4px}}
